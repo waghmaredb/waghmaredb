@@ -24,6 +24,7 @@ This GitHub is the workbench behind the writing — benchmarks, reference builds
 
 ### What lives here
 
+- **[reversibility-classes](https://github.com/waghmaredb/reversibility-classes)** — *if your AI agent gets this wrong, can you undo it?* An open spec (R0–R4) for how recoverable an agent's tool call is, with a registry of 536 tools across 20 MCP servers, each checked against its source. Disagreements welcome; they're how the spec gets sharper.
 - **[vexpose-labs](https://github.com/waghmaredb/vexpose-labs)** — the working code behind [vExpose](https://www.vexpose.blog): benchmarks, reference architectures, and the scripts I use to check my own numbers before publishing.
 - **[inference-economics](https://github.com/waghmaredb/inference-economics)** — a transparent calculator for the real cost of serving LLM tokens: tokens per watt, dollars per million, and how far cloud prices sit above the energy floor.
 - **Infrastructure-as-code reference builds** — Kubernetes, OpenShift on bare metal, and storage automation from years spent closer to the metal. Kept public because someone always needs a working example.
